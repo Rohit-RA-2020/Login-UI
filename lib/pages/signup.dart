@@ -14,8 +14,6 @@ class _State extends State<SignUpPage> {
 
   @override
   Widget build(BuildContext context) {
-    print(MediaQuery.of(context).size.height);
-    print(MediaQuery.of(context).size.width);
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(10),
